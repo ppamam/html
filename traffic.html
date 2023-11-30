@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="嘟嘟狗旅遊">
+    <meta name="description" content="介紹台灣的大眾交通工具, 包含高鐵, 台鐵以及捷運系統。">
+    <meta name="generator" content="Visual Studio Code v.1.84.2">
+    <meta name="keywords" content="嘟嘟狗旅遊, 嘟嘟狗, DoDoGo, 捷運, 高鐵, 台鐵, 交通工具">
+    <!-- favicon我的最愛(書籤)圖標 -->
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <title>嘟嘟狗旅遊-住宿資訊</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="custom.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  </head>
+  <!-- 註冊GA才有追蹤碼，GA會有版本更新的問題，上傳網頁後才能申請 -->
+  <body>
+    <!-- <h3>CSS選取器</h3>
+    <p id="title-blue" class="text-pink">標籤、類別、ID、複合</p> -->
+    <header class="fixed-top">
+      <nav class="navbar navbar-expand-lg bg-dark navber-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img src="images/index/round/favicon.png" alt="嘟嘟狗旅遊" title="嘟嘟狗旅遊" aria-label="嘟嘟狗旅遊"></a>
+		  <img src="images/index/round/HAPPYLIFEDODOGO.png" alt="Happy Life DoDoGo" title="Happy Life DoDoGo" aria-label="Happy Life DoDoGo">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">嘟嘟狗旅遊</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">關於品牌</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="viewpoint.html">景點介紹</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="safe.html">旅遊指南</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="traffic.html">交通資訊</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="hotel.html">住宿資訊</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://toolkit.url.com.tw/bbs/index.php?email=bbs@test.url.tw">留言分享</a>
+              </li>
+            </ul>
+           	<script async src="https://cse.google.com/cse.js?cx=340d7e6cdbad9461c">
+			</script>
+			<div class="gcse-search"></div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/index/round/saltfield_ok.webp" class="d-block w-100" alt="台南鹽田" title="黃昏時的台南鹽田" aria-label="黃昏時的台南鹽田">
+          </div>
+          <div class="carousel-item">
+            <img src="images/index/round/blossoms-7969007_1920_ok.webp" class="d-block w-100" alt="台北陽明山開花" title="台北陽明山開花" aria-label="冬天的台北陽明山開花">
+          </div>
+          <div class="carousel-item">
+            <img src="images/index/round/qingtiangang-1784872_1920_ok.webp" class="d-block w-100" alt="墾丁草原" title="墾丁草原的悠閒時光" aria-label="墾丁草原的悠閒時光">
+          </div>
+  
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="container">
+        <div class="row mt-5 mb-5">
+          <div class="col-md-7 order-md-1">
+            <h2 class="alert alert-warning">交通工具的選擇</h2>
+            <p>台灣的交通工具十分多元，有大眾運輸工具，也可以搭乘客運巴士，坐計程車，或是搭配自行車跟租車，您可以任意選擇搭被您想要使用的交通方式到達旅遊目的地。台灣有和運租車，iRant...等等的租車業者提供出租，客運巴士有統聯客運，國光客運...等等，計程車有台灣大車隊或是Uber，另外在各大景點處與車站都設有UBike可以使用一卡通或是悠遊卡租自行車，大眾運輸有高鐵、台鐵、長途巴士、捷運、輕軌...等等，以下介紹三款大家最常使用到的大眾交通運輸工具。</p>
+          </div>
+          <div class="col-md-5 order-md-0" >
+            <img src="images/traffic/vw-4016326_1280_ok.webp" alt="交通工具的選擇" class="img-fluid mxauto" title="交通工具的選擇" aria-label="交通工具的選擇">
+          </div>
+        </div>
+
+        <h2 class="alert alert-success mb-3" role="alert">交通工具推薦</h2>
+        <div class="row">
+          <div class="col-lg-4 order-md-0 mt-5">
+            <div class="card">
+              <img src="images/traffic/train-3328100_1280_ok.webp" class="card-img-top" alt="台灣高鐵" title="台灣高鐵" aria-label="台灣高鐵">
+              <div class="card-body">
+                <h2 class="">台灣高鐵</h2>
+                <p class="card-text">台灣高鐵是台灣最快速的鐵路運輸系統，自通車營運以來，秉持提供旅客安全、快速的運輸服務為最高原則，超過13 年的深耕努力，已為台灣西部走廊的主要交通骨幹。</p>
+                <p class="text-end"><a href="https://www.thsrc.com.tw/ArticleContent/f08fe31f-51e1-47c1-a1a1-3dd35cee0b02" target="_blank" class="btn btn-success" role="button">台灣高鐵</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 order-md-2 mt-5">
+            <div class="card">
+              <img src="images/traffic/railway-1555348_1280_ok.webp" class="card-img-top" alt="台灣鐵路局" title="台灣鐵路局" aria-label="台灣鐵路局">
+              <div class="card-body">
+                <h2 class="">台灣鐵路局</h2>
+                <p class="card-text">台鐵在台灣是主要的鐵路運輸系統，全島的主要城市都有連接，目前的車型有自強號、莒光號和區間車，您們可以搭乘台鐵體驗台灣多元的地形。</p>
+                <p class="text-end"><a href="https://www.railway.gov.tw/tra-tip-web/tip" target="_blank" class="btn btn-success" role="button">台灣鐵路局</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 order-md-1 mt-5">
+            <div class="card">
+            <img src="images/traffic/taiwan-700666_1280_ok.webp" class="card-img-top" alt="捷運系統" title="捷運系統" aria-label="捷運系統">
+              <div class="card-body">
+                <h2 class="">捷運系統</h2>
+                <p class="card-text">台灣的捷運系統有台北捷運，台中捷運，高雄捷運與桃園機場捷運，並且與台鐵及高鐵設有接駁站，十分便利，是台灣通勤族與旅行者喜愛的交通工具。</p>
+                <p class="text-align">
+                <a href="https://www.metro.taipei/" target="_blank" class="btn btn-success" role="button">台北捷運</a>
+                <a href="https://www.tmrt.com.tw/" target="_blank" class="btn btn-success" role="button">台中捷運</a>
+                <a href="https://www.krtc.com.tw/" target="_blank" class="btn btn-success" role="button">高雄捷運</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="mt-5">
+      </div>
+      <footer class="container">
+        <p class="float-end"><a href="#top">回到頁面頂端</a></p>
+        <p>嘟嘟狗旅遊 &copy; 2023 </p>
+      </footer>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>

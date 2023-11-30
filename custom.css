@@ -1,0 +1,39 @@
+/* 定義變數 */
+:root,
+[data-bs-theme=light] {--bs-dark-rgb: 247, 131, 221;
+} 
+
+/* 使用GoogleFonts雲端字體 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap');
+
+/* 使用GoogleFonts雲端字體 */
+body {
+    font-family: '微軟正黑體', 'Noto Sans TC', sans-serif;
+}
+
+.carousel-indicators button.active {
+  background-color: rgb(39, 6, 73) /* 將#your_active_color替換為你想要的激活狀態顏色 */
+}
+
+/* 指定跟文字大小，單位是px */
+html {font-size: 20px;}
+
+/* 選取器是標籤，影響整體 */
+h2 {font-size: 1.5rem;font-weight: 00;color: rgb(39,102,229);}
+h3 {font-size: 1rem;font-weight: 00;color: rgb(0, 0, 0);}
+
+/* 選取器是類別，影響個別，需要手動套用 */
+.h2-custom-pink {font-size: 1.5rem;font-weight: 900;color: rgb(249, 131, 221)}
+
+/* 拿掉文字超連結底線 */
+footer a {
+    text-decoration: none;
+}
+
+div.b {
+    text-indent: 2rem;
+  }
+  
+p.text-align {
+    text-align: end;
+  }
